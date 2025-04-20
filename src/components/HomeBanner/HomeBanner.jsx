@@ -8,7 +8,7 @@ function HomeBanner(){
         <div>
             <section className={styles.details}>
             <h1>I'm Aadil</h1>
-            <p>I work with React Ecosystem, and write to teach people how to rebuild and redefine fundamental concepts through mental models.</p>
+            <p>I'm a fresher full-stack developer who enjoys building clean, functional web applications using Java and the MERN stack. I’m passionate about learning through hands-on experience and love turning ideas into real, working projects.</p>
             <span><a href="#About">More about me</a></span>
             <ul>
                 <li><a href="" className={styles.github}></a></li>
