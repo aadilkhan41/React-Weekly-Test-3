@@ -4,7 +4,7 @@ import Project from '../../assets/Project';
 import RightProject from '../Project/RightProject';
 import LeftProject from '../Project/LeftProject';
 import JavaScript from '../../assets/JavaScript';
-import projectBanner from '../../assets/project-banner.jpg';
+import projectBanner from '../../assets/project-1.png';
 
 function Projects(){
     const data = {
@@ -14,12 +14,12 @@ function Projects(){
     };
 
     const projests = [{
-        title: "Hexcape",
-        disc: "A game that combines iOS and physical puzzle game, using 3D, 360 world view, and AR",
+        title: "Bisleri Clone",
+        disc: "The Bisleri Clone is a front-end web project designed to replicate 99% of the original Bisleri website, offering a seamless and dynamic user experience. This clone features a visually appealing layout with smooth animations and responsiveness across all devices.",
         cover: projectBanner,
-        tools: [JavaScript, JavaScript],
-        link: "/",
-        repo: "/",
+        tools: [JavaScript],
+        link: "https://bisleri-ui.vercel.app/",
+        repo: "https://github.com/aadilkhan41/bisleri?tab=readme-ov-file",
     }];
 
     return (
