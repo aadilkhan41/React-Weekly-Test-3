@@ -89,3 +89,17 @@
 .sticker img{
     width: 400px;
 }
+
+@media (max-width: 768px) {
+    .details{
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0 40px;
+        box-sizing: border-box;
+    }
+
+    .sticker{
+        display: none;
+    }
+}

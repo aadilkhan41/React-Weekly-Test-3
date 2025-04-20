@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px 0;
+    padding: 100px 20px;
 }
 
 .aboutme{
@@ -86,4 +86,14 @@
     width: 15px;
     height: 15px;
     margin-bottom: -2px;
+}
+
+@media (max-width: 768px) {
+    .aboutme{
+        flex-direction: column;
+    }
+
+    .profile{
+        margin-bottom: 50px;
+    }
 }

@@ -35,3 +35,13 @@
     object-fit: cover;
     border-radius: 15px;
 }
+
+@media (max-width: 768px) {
+    .project{
+        flex-direction: column;
+    }
+
+    .project section img{
+        width: 100%;
+    }
+}

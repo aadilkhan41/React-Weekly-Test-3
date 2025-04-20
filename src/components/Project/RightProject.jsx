@@ -16,7 +16,7 @@ function RightProject({project}){
                     <LinkButton title='Repository' Icon={Github} link={project.repo}/>
                 </div>
             </section>
-            <section style={styles.cover}>
+            <section>
                 <img src={project.cover} alt={project.title}/>
             </section>
         </div>
